@@ -3,7 +3,9 @@ PROJ_NAME = Dashboard_led
 BUILD_DIR = Build
 
 # All Source code files
-SRC = Activity1.c
+SRC = project_main.c\
+src/1_HeaterLED.c
+
 
 #Object copy to create hexfile
 OBJCOPY = avr-objcopy
@@ -46,7 +48,7 @@ endif
 
 all:$(BUILD_DIR)
 	# Compile the code and generate the ELF file
-	$(CC) -g -Wall -Os -mmcu=atmega328 -DF_CPU=16000000UL $(SRC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).elf)
+	$(CC) -g -Wall -Os -mmcu=atmega328 -DF_CPU=16000000UL $(INC) $(SRC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).elf)
 	
 hex: $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).elf)
 	#create hex file
