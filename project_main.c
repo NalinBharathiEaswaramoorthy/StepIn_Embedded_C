@@ -20,6 +20,9 @@
 
 int main()
 {
-short heater = heater_led();
-return 0;
+    while(1)
+    {
+        short heater = heater_led();
+    }
+    return 0;
 }
