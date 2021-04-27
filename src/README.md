@@ -1,6 +1,8 @@
 # Embedded C Programming with Continuous Integration 
 
-# LED control based on two buttons 
+# Activity 1
+
+## LED control based on two buttons 
 
 ## In Action
 
