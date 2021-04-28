@@ -14,4 +14,4 @@
 
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
-|[![C/C++ CI](https://github.com/NalinBharathiEaswaramoorthy/StepIn_Embedded_C/actions/workflows/compile.yml/badge.svg)](https://github.com/NalinBharathiEaswaramoorthy/StepIn_Embedded_C/actions/workflows/compile.yml)|||
+|[![C/C++ CI](https://github.com/NalinBharathiEaswaramoorthy/StepIn_Embedded_C/actions/workflows/compile.yml/badge.svg)](https://github.com/NalinBharathiEaswaramoorthy/StepIn_Embedded_C/actions/workflows/compile.yml)|[![Cppcheck](https://github.com/NalinBharathiEaswaramoorthy/StepIn_Embedded_C/actions/workflows/cpp-check.yml/badge.svg)](https://github.com/NalinBharathiEaswaramoorthy/StepIn_Embedded_C/actions/workflows/cpp-check.yml)||
