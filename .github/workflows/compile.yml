@@ -1,4 +1,4 @@
-name: C/C++ CI
+name: Embedded C CI
 
 on:
   push:
