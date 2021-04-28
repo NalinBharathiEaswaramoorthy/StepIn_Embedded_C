@@ -1,4 +1,4 @@
-DOXY_FILE = Dashboard_led
+DOXY_FILE = Automotive_Heating_System
 BUILD_FILE = html
 
 FixPath = $(subst /,\,$1)

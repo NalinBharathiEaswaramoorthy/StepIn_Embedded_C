@@ -1,10 +1,11 @@
-PROJ_NAME = Dashboard_led
+PROJ_NAME = Automotive_Heating_System
 
 BUILD_DIR = Build
 
 # All Source code files
 SRC = project_main.c\
-src/1_HeaterLED.c
+src/1_HeaterLED.c\
+src/2_ADC.c
 
 
 #Object copy to create hexfile
