@@ -10,6 +10,11 @@
 |:--:|:--:|
 |![ON](https://github.com/NalinBharathiEaswaramoorthy/StepIn_Embedded_C/blob/main/simulation/Activity1_OFF.png)|![OFF](https://github.com/NalinBharathiEaswaramoorthy/StepIn_Embedded_C/blob/main/simulation/Activity1_ON.png)|
 
+# Activity 2
+
+## Use of Analog to Digital Converter(ADC)
+|![ADC](https://github.com/NalinBharathiEaswaramoorthy/StepIn_Embedded_C/blob/main/simulation/Activity2.png)|
+
 #### CI and Code Quality
 
 |Build|Cppcheck|Codacy|
