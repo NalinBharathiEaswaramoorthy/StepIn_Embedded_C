@@ -15,6 +15,11 @@
 ## Use of Analog to Digital Converter(ADC)
 |![ADC](https://github.com/NalinBharathiEaswaramoorthy/StepIn_Embedded_C/blob/main/simulation/Activity2.png)|
 
+# Activity 3
+
+## Pulse Width Modulation(PWM)
+|![PWM](https://github.com/NalinBharathiEaswaramoorthy/StepIn_Embedded_C/blob/main/simulation/PWM.png)|
+
 #### CI and Code Quality
 
 |Build|Cppcheck|Codacy|
