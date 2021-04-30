@@ -1,23 +1,23 @@
 # Embedded C Programming with Continuous Integration 
 
-# Activity 1
+## Activity 1
 
-## LED control based on two buttons 
+### LED control based on two buttons 
 
-## In Action
+### In Action
 
 |ON|OFF|
 |:--:|:--:|
 |![ON](https://github.com/NalinBharathiEaswaramoorthy/StepIn_Embedded_C/blob/main/simulation/Activity1_OFF.png)|![OFF](https://github.com/NalinBharathiEaswaramoorthy/StepIn_Embedded_C/blob/main/simulation/Activity1_ON.png)|
 
-# Activity 2
+## Activity 2
 
-## Use of Analog to Digital Converter(ADC)
+### Use of Analog to Digital Converter(ADC)
 |![ADC](https://github.com/NalinBharathiEaswaramoorthy/StepIn_Embedded_C/blob/main/simulation/Activity2.png)|
 
-# Activity 3
+## Activity 3
 
-## Pulse Width Modulation(PWM)
+### Pulse Width Modulation(PWM)
 |![PWM](https://github.com/NalinBharathiEaswaramoorthy/StepIn_Embedded_C/blob/main/simulation/PWM.png)|
 
 #### CI and Code Quality
