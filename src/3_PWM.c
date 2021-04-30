@@ -14,7 +14,7 @@ void PWM_config()
 int PWMoutput(uint16_t ADC_value)
 {
     int temp_buffer;
-    if((ADC_value>=0) && (ADC_value<210))
+    if(ADC_value<210)
     {
     OCR1A = 205; // 20% duty cycle
     temp_buffer = 20;
