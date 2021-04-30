@@ -26,19 +26,22 @@ int main()
 {
     while(1)
     {
-        int temperature;
-        short heater = heater_led();
-        uint16_t ADC_value;
+        int temperature = 0;
+        short heater = 0;
+        heater = heater_led();
+        uint16_t ADC_value = 0;
         if(heater == 1)             // Read ADC value if both switches are turned on
         {
             InitADC();
-            ADC_value = ReadADC(0);
+            ADC_value = ReadADC(0);  //Read from ADC channel 0
             _delay_ms(200);
             PWM_config();
             temperature = PWMoutput(ADC_value);
-            USARTInit();
-            USARTWrite(temperature);
-            USARTRead();
+            USARTInit();             //Initialize USART
+            USARTWrite(temperature); // Print temperature on Serial Monitor
+            char input = USARTRead(); // Read a value from Serial Monitor
+            if(input == 'N'|| input == 'n')
+            break;
         }
         else
         {

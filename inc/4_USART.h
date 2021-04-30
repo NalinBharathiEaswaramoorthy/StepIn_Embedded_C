@@ -16,7 +16,7 @@ void USARTInit(void);
  * 
  * @return int 
  */
-int USARTRead();
+char USARTRead();
 
 /**
  * @brief Print data(temperature) to the serial monitor
