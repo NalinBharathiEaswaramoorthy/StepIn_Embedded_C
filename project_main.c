@@ -12,6 +12,7 @@
 #include "1_HeaterLED.h"
 #include "2_ADC.h"
 #include "3_PWM.h"
+#include "4_USART.h"
 #include <avr/io.h>
 #include <util/delay.h>
 
@@ -35,6 +36,14 @@ int main()
             _delay_ms(200);
             PWM_config();
             temperature = PWMoutput(ADC_value);
+            USARTInit();
+            USARTWrite(temperature);
+            USARTRead();
+        }
+        else
+        {
+            ADC_value=0;
+            temperature=0;
         }
     }
     return 0;

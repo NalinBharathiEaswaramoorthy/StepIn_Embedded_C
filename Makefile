@@ -6,7 +6,8 @@ BUILD_DIR = Build
 SRC = project_main.c\
 src/1_HeaterLED.c\
 src/2_ADC.c\
-src/3_PWM.c
+src/3_PWM.c\
+src/4_USART.c
 
 
 #Object copy to create hexfile
