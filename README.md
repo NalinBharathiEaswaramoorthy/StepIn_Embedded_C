@@ -20,6 +20,11 @@
 ### Pulse Width Modulation(PWM)
 |![PWM](https://github.com/NalinBharathiEaswaramoorthy/StepIn_Embedded_C/blob/main/simulation/PWM.png)|
 
+## Activity 4
+
+### Universal Asynchronous Receiver Transmitter(USART)
+|![USART](https://github.com/NalinBharathiEaswaramoorthy/StepIn_Embedded_C/blob/main/simulation/USART.png)|
+
 #### CI and Code Quality
 
 |Build|Cppcheck|Codacy|
